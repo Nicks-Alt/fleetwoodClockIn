@@ -1,0 +1,14 @@
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.exe.config
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.exe
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.pdb
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.xml
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.vbprojResolveAssemblyReference.cache
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Resources.resources
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.vbproj.GenerateResource.Cache
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.exe
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.xml
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.pdb
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.frmMain.resources
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Counselors.resources
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Purpose.resources
+G:\Level 2\Languages\Visual Basic\FleetwoodClockIn\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.ClockedInStudents.resources
