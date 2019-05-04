@@ -84,6 +84,12 @@
     <Compile Include="Counselors.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmEnterPass.Designer.vb">
+      <DependentUpon>frmEnterPass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnterPass.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Counselors.resx">
       <DependentUpon>Counselors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnterPass.resx">
+      <DependentUpon>frmEnterPass.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>

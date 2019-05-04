@@ -136,6 +136,7 @@ Partial Class Counselors
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "Counselors"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Counselors"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

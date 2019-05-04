@@ -24,24 +24,25 @@ Partial Class frmMain
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblTitle = New System.Windows.Forms.Label()
         Me.btnClockIn = New System.Windows.Forms.Button()
         Me.btnClockOut = New System.Windows.Forms.Button()
         Me.tmrBackground = New System.Windows.Forms.Timer(Me.components)
         Me.lblTime = New System.Windows.Forms.Label()
         Me.tmrClock = New System.Windows.Forms.Timer(Me.components)
+        Me.lblLogin = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Label1
+        'lblTitle
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Segoe Print", 48.0!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(167, 21)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(1045, 112)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Fleetwood Area School District"
+        Me.lblTitle.AutoSize = True
+        Me.lblTitle.BackColor = System.Drawing.Color.Transparent
+        Me.lblTitle.Font = New System.Drawing.Font("Segoe Print", 48.0!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitle.Location = New System.Drawing.Point(167, 21)
+        Me.lblTitle.Name = "lblTitle"
+        Me.lblTitle.Size = New System.Drawing.Size(1045, 112)
+        Me.lblTitle.TabIndex = 0
+        Me.lblTitle.Text = "Fleetwood Area School District"
         '
         'btnClockIn
         '
@@ -71,12 +72,13 @@ Partial Class frmMain
         '
         'lblTime
         '
+        Me.lblTime.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lblTime.AutoSize = True
         Me.lblTime.BackColor = System.Drawing.Color.Transparent
-        Me.lblTime.Font = New System.Drawing.Font("Rockwell", 18.0!)
+        Me.lblTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.lblTime.Location = New System.Drawing.Point(618, 133)
         Me.lblTime.Name = "lblTime"
-        Me.lblTime.Size = New System.Drawing.Size(142, 27)
+        Me.lblTime.Size = New System.Drawing.Size(143, 29)
         Me.lblTime.TabIndex = 3
         Me.lblTime.Text = "00:00:00 XX"
         '
@@ -84,6 +86,16 @@ Partial Class frmMain
         '
         Me.tmrClock.Enabled = True
         Me.tmrClock.Interval = 1
+        '
+        'lblLogin
+        '
+        Me.lblLogin.AutoSize = True
+        Me.lblLogin.BackColor = System.Drawing.Color.Transparent
+        Me.lblLogin.Location = New System.Drawing.Point(0, 0)
+        Me.lblLogin.Name = "lblLogin"
+        Me.lblLogin.Size = New System.Drawing.Size(13, 13)
+        Me.lblLogin.TabIndex = 4
+        Me.lblLogin.Text = "π"
         '
         'frmMain
         '
@@ -93,10 +105,11 @@ Partial Class frmMain
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1378, 780)
         Me.ControlBox = False
+        Me.Controls.Add(Me.lblLogin)
         Me.Controls.Add(Me.lblTime)
         Me.Controls.Add(Me.btnClockOut)
         Me.Controls.Add(Me.btnClockIn)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblTitle)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmMain"
@@ -108,10 +121,11 @@ Partial Class frmMain
 
     End Sub
 
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblTitle As Label
     Friend WithEvents btnClockIn As Button
     Friend WithEvents btnClockOut As Button
     Friend WithEvents tmrBackground As Timer
     Friend WithEvents lblTime As Label
     Friend WithEvents tmrClock As Timer
+    Friend WithEvents lblLogin As Label
 End Class

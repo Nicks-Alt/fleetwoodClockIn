@@ -121,6 +121,7 @@ Partial Class Purpose
         Me.Controls.Add(Me.btnOK)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Purpose"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Purpose"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

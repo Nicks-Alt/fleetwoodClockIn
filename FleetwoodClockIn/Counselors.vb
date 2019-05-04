@@ -1,13 +1,12 @@
 ﻿Public Class Counselors
+    Friend cancelPressed As Boolean = False
     Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
-        Dim cancel As Boolean
-        Do
-            If MsgBox("Are you sure you want to cancel?", vbYesNo, "Are you sure?") = MsgBoxResult.Yes Then
-                cancel = True
-            Else
-                cancel = False
-            End If
-        Loop Until cancel = True
+        If MsgBox("Are you sure you want to cancel?", vbYesNo, "Are you sure?") = MsgBoxResult.Yes Then
+            cancelPressed = True
+            Close()
+        Else
+            Exit Sub
+        End If
     End Sub
 
     Private Sub btnOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
