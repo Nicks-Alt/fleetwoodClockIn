@@ -17,7 +17,7 @@
         lblLogin.Location = New Point(My.Computer.Screen.Bounds.Width - 50, My.Computer.Screen.Bounds.Height - 50)
     End Sub
     Private Sub btnClockIn_Click(sender As Object, e As EventArgs) Handles btnClockIn.Click
-        If currentStudents Is Nothing Then
+        If currentStudents Is Nothing OrElse currentStudents.Length = 0 Then
             ReDim Preserve currentStudents(0)
         Else
             If currentStudents(currentStudents.Length - 1).Name = Nothing Then
@@ -103,10 +103,15 @@
     Private Sub tmrClock_Tick(sender As Object, e As EventArgs) Handles tmrClock.Tick
         lblTime.Text = Now.ToLongTimeString
     End Sub
-
     Private Sub lblLogin_Click(sender As Object, e As EventArgs) Handles lblLogin.Click
         If My.Computer.Keyboard.CtrlKeyDown Then
             frmEnterPass.ShowDialog()
         End If
+    End Sub
+    Private Sub ThanksVBForums(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        e.Cancel = True
+    End Sub
+    Private Sub yeet(sender As Object, e As EventArgs) Handles MyBase.HandleCreated
+        KeyboardJammer.Jam()
     End Sub
 End Class

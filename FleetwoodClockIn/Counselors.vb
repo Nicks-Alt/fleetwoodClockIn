@@ -31,7 +31,4 @@
     Private Sub radMoyer_CheckedChanged(sender As Object, e As EventArgs) Handles radMoyer.CheckedChanged, radEngelhardt.CheckedChanged, radHawkins.CheckedChanged, radOther.CheckedChanged, radSaunders.CheckedChanged
         btnOK.Enabled = True
     End Sub
-    Private Sub Counselors_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        btnOK.Enabled = False
-    End Sub
 End Class

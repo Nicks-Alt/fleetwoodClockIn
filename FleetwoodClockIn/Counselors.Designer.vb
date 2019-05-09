@@ -106,7 +106,6 @@ Partial Class Counselors
         'btnOK
         '
         Me.btnOK.BackColor = System.Drawing.Color.Transparent
-        Me.btnOK.Enabled = False
         Me.btnOK.Location = New System.Drawing.Point(200, 48)
         Me.btnOK.Name = "btnOK"
         Me.btnOK.Size = New System.Drawing.Size(75, 23)

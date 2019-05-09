@@ -37,10 +37,10 @@ Partial Class ClockedInStudents
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe Print", 11.0!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
-        Me.Label1.Location = New System.Drawing.Point(-6, 8)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(1, 8)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(245, 26)
+        Me.Label1.Size = New System.Drawing.Size(230, 20)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Click on your name to sign out"
         '

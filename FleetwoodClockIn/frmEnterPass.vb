@@ -5,9 +5,10 @@
             Close()
         Else
             MsgBox("Incorrect password! Please try again.", MsgBoxStyle.Exclamation, "Wrong password.")
+            txtPassword.Clear()
+            txtPassword.Focus()
         End If
     End Sub
-
     Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
         Close()
     End Sub
@@ -15,5 +16,9 @@
         If e.KeyCode = Keys.Enter Then
             btnOK_Click(Me, New EventArgs)
         End If
+    End Sub
+    Private Sub frmEnterPass_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txtPassword.Clear()
+        txtPassword.Focus()
     End Sub
 End Class
