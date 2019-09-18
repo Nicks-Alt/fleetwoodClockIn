@@ -1,5 +1,10 @@
 ﻿Imports System.Runtime.InteropServices
 Imports System.Reflection
+'
+'
+' ALL CREDIT FOR THIS CLASS GOES TO DJ-NITEHAWK: https://github.com/dj-nitehawk/Pandorian/blob/master/Pandorian/KeyBoardJammer.vb
+'
+'
 Public Class KeyboardJammer
     Private Delegate Function HookCallback(ByVal nCode As Integer, ByVal wParam As Integer, ByVal lParam As IntPtr) As Integer
     Private Shared HookDelegate As HookCallback

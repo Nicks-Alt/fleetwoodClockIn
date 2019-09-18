@@ -1,8 +1,12 @@
-﻿Public Class frmMain
-    Friend password As String = "Database"
+﻿'Created by Nicholas Kline (#23222)
+Public Class frmMain
+    Friend password As String
     Friend currentStudents() As Student
     Friend con As New OleDb.OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=StudentDatabase.mdb")
-    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Activated
+        Dim objReader As New IO.StreamReader("Security.txt")
+        password = objReader.ReadLine
+        objReader.Close()
         WindowState = FormWindowState.Maximized
         Size = New Size(My.Computer.Screen.Bounds.Width, My.Computer.Screen.Bounds.Height)
         Dim middleX As Integer = My.Computer.Screen.Bounds.Width / 2
@@ -28,7 +32,7 @@
         Dim goodData, cancel As Boolean
         Do
             Dim temp As String = InputBox("Enter your name:", "Enter Name", " ")
-            If temp <> "" Then
+            If temp.Trim(" ") <> "" Then
                 If IsNumeric(temp) = False Then
                     goodData = True ' No names have numbers
                     currentStudents(currentStudents.Length - 1).Name = temp.ToUpper
@@ -111,7 +115,12 @@
     Private Sub ThanksVBForums(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         e.Cancel = True
     End Sub
-    Private Sub yeet(sender As Object, e As EventArgs) Handles MyBase.HandleCreated
+    Private Sub JamKeyboard(sender As Object, e As EventArgs) Handles MyBase.HandleCreated
         KeyboardJammer.Jam()
+    End Sub
+    Private Sub ThanksDreamInCode(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+        If e.KeyCode = Keys.LWin Then
+            Focus()
+        End If
     End Sub
 End Class

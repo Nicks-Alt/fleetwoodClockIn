@@ -58,3 +58,41 @@ C:\Users\n_kline\Desktop\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\Flee
 C:\Users\n_kline\Desktop\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Resources.resources
 C:\Users\n_kline\Desktop\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Purpose.resources
 C:\Users\n_kline\Desktop\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.vbproj.GenerateResource.Cache
+C:\Users\n_kline\Desktop\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.AdminPanel.resources
+C:\Users\n_kline\Desktop\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.CounselorsPanel.resources
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.exe.config
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.exe
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.pdb
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.xml
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.vbprojResolveAssemblyReference.cache
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.AdminPanel.resources
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.ClockedInStudents.resources
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Counselors.resources
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.CounselorsPanel.resources
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.frmEnterPass.resources
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.frmMain.resources
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Resources.resources
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Purpose.resources
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.vbproj.GenerateResource.Cache
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.exe
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.xml
+G:\Senior Projects\Nick's\fleetwoodClockIn-master\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.pdb
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.vbprojAssemblyReference.cache
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.exe
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.xml
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.pdb
+E:\Fleetwood Clock In\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.exe.config
+E:\Fleetwood Clock In\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.exe
+E:\Fleetwood Clock In\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.pdb
+E:\Fleetwood Clock In\FleetwoodClockIn\bin\Debug\FleetwoodClockIn.xml
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.AdminPanel.resources
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.ClockedInStudents.resources
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Counselors.resources
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.CounselorsPanel.resources
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Destination.resources
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.frmEnterPass.resources
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.frmMain.resources
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Resources.resources
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.Purpose.resources
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.vbproj.GenerateResource.cache
+E:\Fleetwood Clock In\FleetwoodClockIn\obj\Debug\FleetwoodClockIn.vbproj.CoreCompileInputs.cache

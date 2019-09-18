@@ -76,6 +76,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminPanel.Designer.vb">
+      <DependentUpon>AdminPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ClockedInStudents.Designer.vb">
       <DependentUpon>ClockedInStudents.vb</DependentUpon>
     </Compile>
@@ -86,6 +92,18 @@
       <DependentUpon>Counselors.vb</DependentUpon>
     </Compile>
     <Compile Include="Counselors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CounselorsPanel.Designer.vb">
+      <DependentUpon>CounselorsPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CounselorsPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Destination.Designer.vb">
+      <DependentUpon>Destination.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Destination.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEnterPass.Designer.vb">
@@ -126,11 +144,20 @@
     <Compile Include="Student.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AdminPanel.resx">
+      <DependentUpon>AdminPanel.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ClockedInStudents.resx">
       <DependentUpon>ClockedInStudents.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Counselors.resx">
       <DependentUpon>Counselors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CounselorsPanel.resx">
+      <DependentUpon>CounselorsPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Destination.resx">
+      <DependentUpon>Destination.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEnterPass.resx">
       <DependentUpon>frmEnterPass.vb</DependentUpon>

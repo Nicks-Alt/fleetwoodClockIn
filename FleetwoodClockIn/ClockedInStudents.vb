@@ -1,14 +1,19 @@
 ﻿Public Class ClockedInStudents
+    Friend currentStudent As Student
     Private Sub lstStudents_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstStudents.SelectedIndexChanged
+        Dim currentIndex As Integer
         Try
             If lstStudents.SelectedIndex <> -1 Then
+                currentStudent = frmMain.currentStudents(lstStudents.SelectedIndex)
+                currentIndex = lstStudents.SelectedIndex
                 For i = 0 To frmMain.currentStudents.Length - 1
-                    frmMain.currentStudents(lstStudents.SelectedIndex) = frmMain.currentStudents(lstStudents.SelectedIndex + 1)
+                    frmMain.currentStudents(currentIndex) = frmMain.currentStudents(currentIndex + 1)
                 Next
             End If
         Catch ex As Exception
             frmMain.con.Open()
-            Dim command As New OleDb.OleDbCommand("INSERT INTO Data (StudentName, Counselor, Purpose, InDate, TimeIn, TimeOut, Duration) VALUES ('" & frmMain.currentStudents(lstStudents.SelectedIndex).Name & "', '" & frmMain.currentStudents(lstStudents.SelectedIndex).Counselor & "', '" & frmMain.currentStudents(lstStudents.SelectedIndex).Purpose & "', '" & frmMain.currentStudents(lstStudents.SelectedIndex).InDate & "', '" & frmMain.currentStudents(lstStudents.SelectedIndex).StartTime & "', '" & Now.ToLongTimeString & "', '" & frmMain.CalculateTime(frmMain.currentStudents(lstStudents.SelectedIndex)) & "')", frmMain.con)
+            Destination.ShowDialog()
+            Dim command As New OleDb.OleDbCommand("INSERT INTO Data (StudentName, Counselor, Purpose, InDate, TimeIn, TimeOut, Duration) VALUES ('" & frmMain.currentStudents(currentIndex).Name & "', '" & frmMain.currentStudents(currentIndex).Counselor & "', '" & frmMain.currentStudents(currentIndex).Purpose & "', '" & frmMain.currentStudents(currentIndex).InDate & "', '" & frmMain.currentStudents(currentIndex).StartTime & "', '" & Now.ToLongTimeString & "', '" & frmMain.CalculateTime(frmMain.currentStudents(currentIndex)) & "')", frmMain.con)
             command.ExecuteNonQuery()
             frmMain.con.Close()
             ReDim Preserve frmMain.currentStudents(frmMain.currentStudents.Length - 2)

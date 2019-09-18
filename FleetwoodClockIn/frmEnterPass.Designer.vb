@@ -22,20 +22,24 @@ Partial Class frmEnterPass
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmEnterPass))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.btnOK = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
+        Me.lblChangePass = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(134, 40)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft JhengHei", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(65, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(84, 13)
+        Me.Label1.Size = New System.Drawing.Size(215, 35)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Enter Password:"
+        Me.Label1.Text = "Enter Password"
         '
         'txtPassword
         '
@@ -63,12 +67,27 @@ Partial Class frmEnterPass
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
+        'lblChangePass
+        '
+        Me.lblChangePass.AutoSize = True
+        Me.lblChangePass.BackColor = System.Drawing.Color.Transparent
+        Me.lblChangePass.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblChangePass.ForeColor = System.Drawing.Color.DodgerBlue
+        Me.lblChangePass.Location = New System.Drawing.Point(130, 147)
+        Me.lblChangePass.Name = "lblChangePass"
+        Me.lblChangePass.Size = New System.Drawing.Size(93, 13)
+        Me.lblChangePass.TabIndex = 4
+        Me.lblChangePass.Text = "Change Password"
+        '
         'frmEnterPass
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(352, 160)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(352, 169)
         Me.ControlBox = False
+        Me.Controls.Add(Me.lblChangePass)
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnOK)
         Me.Controls.Add(Me.txtPassword)
@@ -76,7 +95,6 @@ Partial Class frmEnterPass
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "frmEnterPass"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Enter password"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -86,4 +104,5 @@ Partial Class frmEnterPass
     Friend WithEvents txtPassword As TextBox
     Friend WithEvents btnOK As Button
     Friend WithEvents btnCancel As Button
+    Friend WithEvents lblChangePass As Label
 End Class
